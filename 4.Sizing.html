@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <script src="https://cdn.tailwindcss.com"></script>
+    <title>Sizing</title>
+</head>
+<body class="p-20">
+
+<h1 class="text-violet-500">Width from all dimensions</h1>
+
+<div class="bg-teal-100 p-5">
+  <div class="bg-red-600 m-1 w-0">0</div>
+  <div class="bg-red-600 m-1 w-1">1</div>
+  <div class="bg-red-600 m-1 w-1.5">1.5</div>
+  <div class="bg-red-600 m-1 w-2">2</div>
+  <div class="bg-red-600 m-1 w-3">3</div>
+  <div class="bg-red-600 m-1 w-6">6</div>
+  <div class="bg-red-600 m-1 w-7">7</div>
+  <div class="bg-red-600 m-1 w-8">8</div>
+  <div class="bg-red-600 m-1 w-9">9</div>
+  <div class="bg-red-600 m-1 w-10">10</div>
+  <div class="bg-red-600 m-1 w-11">11</div>
+  <div class="bg-red-600 m-1 w-12">12</div>
+  <div class="bg-red-600 m-1 w-14">14</div>
+  <div class="bg-red-600 m-1 w-24">24</div>
+  <div class="bg-red-600 m-1 w-44">44</div>
+  <div class="bg-red-600 m-1 w-60">60</div>
+  <div class="bg-red-600 m-1 w-72">72</div>
+  <div class="bg-red-600 m-1 w-80">80</div>
+  <div class="bg-red-600 m-1 w-96">96</div>
+</div>
+ <h1 class="text-blue-900">Percentages</h1>
+ <div class="bg-teal-100 p-5">
+   <div class="bg-red-600 m-1 w-1/2">1/2</div>
+   <div class="bg-red-600 m-1 w-1/3">1/3</div>
+   <div class="bg-red-600 m-1 w-2/3">2/3</div>
+   <div class="bg-red-600 m-1 w-1/4">1/4</div>
+   <div class="bg-red-600 m-1 3/4">3/4</div>
+   <div class="bg-red-600 m-1 w-1/5">1/5</div>
+   <div class="bg-red-600 m-1 w-2/5">2/5</div>
+   <div class="bg-red-600 m-1 w-2/5">2/5</div>
+   <div class="bg-red-600 m-1 w-3/5">3/5</div>
+   <div class="bg-red-600 m-1 w-4/5">4/5</div>
+   <div class="bg-red-600 m-1 w-1/6">1/6</div>
+   <div class="bg-red-600 m-1 w-5/6">5/6</div>
+ </div>
+<h1>Max width</h1>
+ <div class="bg-yellow-200 mb-10 max-w-sm">
+   ~Oh yeah. It's the best part. It's crunchy, it's explosive, it's where the muffin breaks free of the pan and sort
+   of does it's own thing. I'll tell you. That's a million dollar idea right there. Just sell the tops.
+   Oh yeah. It's the best part. It's crunchy, it's explosive, it's where the muffin breaks free of the pan and sort
+   of does it's own thing. I'll tell you. That's a million dollar idea right there. Just sell the tops.
+ </div>
+ <h1>Width of the viewpoint</h1>
+ <div class="bg-blue-300 my-2 p-5 w-fill">
+   (vw)screen
+ </div>
+ <h1>Arbitrary width</h1>
+<div class="bg-blue-300 my-2 p-5 w-[650px]">
+  Arbitrary Width(400px)
+</div>
+<h1 class="mt-5">Height All Around</h1>
+<div class="flex items-end mt-20 mb-10">
+  <div class="bg-indigo-400 ml-5 h-24">24</div>
+  <div class="bg-indigo-400 ml-5 h-32">32</div>
+  <div class="bg-indigo-400 ml-5 h-40">40</div>
+  <div class="bg-indigo-400 ml-5 h-48">48</div>
+  <div class="bg-indigo-400 ml-5 h-64">64</div>
+  <div class="bg-indigo-400 ml-5 h-80">80</div>
+</div>
+<h1 class="mt-5">Min Height Full</h1>
+<div class="p-5 h-[400px] bg-green-300 mb-5">
+  <div class="min-h-full bg-teal-400">Take Full Height</div>
+</div>
+<h1 class="mb-2">Full Screen Height</h1>
+<div class="bg-pink-400 h-screen">Hello</div>
+<div class="bg-green-400 p-5 w-auto mt-2"></div>
+</body>
+</html>
